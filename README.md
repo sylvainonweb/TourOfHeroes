@@ -4,3 +4,4 @@
                 .subscribe(heroes => this.heroes = heroes);
 * (propertyName) : simple binding
 * [(ngModel)] : double binding
+* <router-outlet> gère le routage des pages

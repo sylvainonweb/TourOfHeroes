@@ -22,9 +22,9 @@ export class HeroService {
         return of(this.getHeroesArray());
     }
 
-    getHeroesArray() : Hero[] {
+    getHeroesArray(): Hero[] {
         const heroes: Hero[] = [];
-        for (let i = 1; i < 1000; i++) {
+        for (let i = 1; i < 9; i++) {
             const hero: Hero  = new Hero();
             hero.id = i;
             hero.name = 'Héro ' + i;
